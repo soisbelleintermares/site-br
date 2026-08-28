@@ -1,0 +1,44 @@
+*{box-sizing:border-box}
+:root{--fundo:#af6374}
+html,body{width:100%;height:100%;margin:0;overflow:hidden;background:var(--fundo)}
+body{font-family:Arial,Helvetica,sans-serif}
+.pagina{position:fixed;inset:0;width:100vw;height:100dvh;overflow:hidden;background:var(--fundo)}
+.cartao{position:absolute;inset:0;width:100%;height:100%;overflow:hidden;line-height:0}
+picture,.capa{display:block;width:100%;height:100%}
+.capa{object-fit:fill;object-position:center;user-select:none;-webkit-user-drag:none;pointer-events:none}
+.area-link{position:absolute;z-index:50;display:block;border-radius:24px;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:rgba(255,255,255,.18)}
+.area-link[aria-disabled="true"]{pointer-events:none}
+.area-link:focus-visible{outline:4px solid #fff;outline-offset:-4px}
+/* MOBILE 1080x1920 */
+.agendar{left:14.8148%;top:53.4375%;width:70.3704%;height:5.0521%;}
+.whatsapp{left:14.8148%;top:60.8333%;width:70.3704%;height:5.0521%;}
+.procedimentos{left:14.8148%;top:68.3854%;width:70.3704%;height:5.0521%;}
+.localizacao{left:14.8148%;top:75.9375%;width:70.3704%;height:5.0521%;}
+.produtos{left:14.8148%;top:83.3333%;width:70.3704%;height:5.0521%;}
+.instagram{left:14.8148%;top:90.8854%;width:70.3704%;height:5.0521%;}
+/* TABLET VERTICAL 1085x1449 */
+@media (orientation:portrait) and (min-width:600px){.agendar{left:20.5530%;top:56.1077%;width:58.5253%;height:5.7281%;}
+.whatsapp{left:20.4608%;top:63.4921%;width:58.6175%;height:5.7971%;}
+.procedimentos{left:20.4608%;top:70.8075%;width:58.6175%;height:5.7971%;}
+.localizacao{left:20.4608%;top:78.1919%;width:58.6175%;height:5.7281%;}
+.produtos{left:20.4608%;top:85.5072%;width:58.6175%;height:5.7281%;}
+.instagram{left:20.4608%;top:92.6156%;width:58.6175%;height:5.7281%;}}
+/* TABLET HORIZONTAL 1448x1086 */
+@media (orientation:landscape) and (pointer:coarse){.agendar{left:4.2127%;top:74.1252%;width:29.4890%;height:7.6427%;}
+.whatsapp{left:35.4282%;top:74.1252%;width:29.4199%;height:7.6427%;}
+.procedimentos{left:66.6436%;top:74.1252%;width:29.4199%;height:7.6427%;}
+.localizacao{left:4.2127%;top:84.9908%;width:29.4890%;height:7.7348%;}
+.produtos{left:35.4282%;top:84.9908%;width:29.4199%;height:7.7348%;}
+.instagram{left:66.6436%;top:84.9908%;width:29.4199%;height:7.7348%;}}
+/* DESKTOP 1672x941 */
+@media (orientation:landscape) and (pointer:fine){.agendar{left:5.7416%;top:70.3507%;width:28.2297%;height:9.2455%;}
+.whatsapp{left:35.9450%;top:70.3507%;width:28.1699%;height:9.2455%;}
+.procedimentos{left:66.0287%;top:70.3507%;width:28.2297%;height:9.2455%;}
+.localizacao{left:5.7416%;top:84.1658%;width:28.2297%;height:9.2455%;}
+.produtos{left:35.9450%;top:84.1658%;width:28.1699%;height:9.2455%;}
+.instagram{left:66.0287%;top:84.1658%;width:28.2297%;height:9.2455%;}}
+.install-app{position:fixed;z-index:80;right:max(7px,env(safe-area-inset-right));bottom:max(7px,env(safe-area-inset-bottom));padding:4px 8px;border:1px solid rgba(255,255,255,.35);border-radius:999px;background:rgba(91,36,47,.80);color:#fff;font:600 10px/1 Arial;box-shadow:0 3px 10px rgba(0,0,0,.18);cursor:pointer;opacity:.85}
+.ios-install-modal{position:fixed;inset:0;z-index:120;display:grid;place-items:center;padding:20px;background:rgba(40,20,25,.58);backdrop-filter:blur(4px)}
+.ios-install-modal[hidden]{display:none}
+.ios-install-card{position:relative;width:min(100%,420px);padding:28px 24px 24px;border-radius:22px;background:#fff6ed;color:#5b242f;font-family:Arial;line-height:1.45;box-shadow:0 18px 50px rgba(0,0,0,.28)}
+.ios-install-close{position:absolute;top:10px;right:12px;width:34px;height:34px;border:0;border-radius:50%;font-size:25px;cursor:pointer}

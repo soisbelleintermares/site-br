@@ -1,0 +1,33 @@
+CALIBRAGEM DOS 6 BOTÕES — SOIS BELLE
+
+Mobile 1080×1920
+agendar        left=14.8148% top=53.4375% width=70.3704% height=5.0521%
+whatsapp       left=14.8148% top=60.8333% width=70.3704% height=5.0521%
+procedimentos  left=14.8148% top=68.3854% width=70.3704% height=5.0521%
+localizacao    left=14.8148% top=75.9375% width=70.3704% height=5.0521%
+produtos       left=14.8148% top=83.3333% width=70.3704% height=5.0521%
+instagram      left=14.8148% top=90.8854% width=70.3704% height=5.0521%
+
+Tablet vertical 1085×1449
+agendar        left=20.5530% top=56.1077% width=58.5253% height=5.7281%
+whatsapp       left=20.4608% top=63.4921% width=58.6175% height=5.7971%
+procedimentos  left=20.4608% top=70.8075% width=58.6175% height=5.7971%
+localizacao    left=20.4608% top=78.1919% width=58.6175% height=5.7281%
+produtos       left=20.4608% top=85.5072% width=58.6175% height=5.7281%
+instagram      left=20.4608% top=92.6156% width=58.6175% height=5.7281%
+
+Tablet horizontal 1448×1086
+agendar        left=4.2127% top=74.1252% width=29.4890% height=7.6427%
+whatsapp       left=35.4282% top=74.1252% width=29.4199% height=7.6427%
+procedimentos  left=66.6436% top=74.1252% width=29.4199% height=7.6427%
+localizacao    left=4.2127% top=84.9908% width=29.4890% height=7.7348%
+produtos       left=35.4282% top=84.9908% width=29.4199% height=7.7348%
+instagram      left=66.6436% top=84.9908% width=29.4199% height=7.7348%
+
+Desktop 1672×941
+agendar        left=5.7416% top=70.3507% width=28.2297% height=9.2455%
+whatsapp       left=35.9450% top=70.3507% width=28.1699% height=9.2455%
+procedimentos  left=66.0287% top=70.3507% width=28.2297% height=9.2455%
+localizacao    left=5.7416% top=84.1658% width=28.2297% height=9.2455%
+produtos       left=35.9450% top=84.1658% width=28.1699% height=9.2455%
+instagram      left=66.0287% top=84.1658% width=28.2297% height=9.2455%
